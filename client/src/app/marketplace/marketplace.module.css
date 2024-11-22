@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(90deg, #111827 0%, #1e293b 100%);
+}
+
+.innerContainer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.content {
+    max-width: 1500px;
+    margin: 0 auto 90px auto;
+    max-height: 700px;
+    overflow-y: scroll;
+    padding: 0 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #444 #222;
+}
+
+.content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.content::-webkit-scrollbar-track {
+    background: #222;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background-color: #444;
+    border-radius: 4px;
+}
+
+.heading {
+    font-size: 42px;
+    text-align: center;
+    color: #e0e0e0;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.nftSection {
+    margin-top: 20px;
+}
+
+.nftGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.nftGrid>div {
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+.nftGrid>div:hover {
+    border-color: #b57edc;
+}
+
+.noNFT {
+    font-size: 32px;
+    font-weight: bold;
+    color: #666;
+    text-align: center;
+    margin: 16px 0;
+}
+
+.notConnected {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ff4444;
+    text-align: center;
+    margin: 16px 0;
+    text-shadow: 0 0 15px rgba(255, 68, 68, 0.5);
+}
