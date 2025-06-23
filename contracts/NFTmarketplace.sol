@@ -9,7 +9,7 @@ contract NFTSTORE is ERC721URIStorage {
     uint256 public listingFeePercent = 20;
     uint256 private currentTokenId;
     uint256 private totalItemsSold;
-
+ 
     struct NFTListing {
         uint256 tokenId;
         address payable owner;
