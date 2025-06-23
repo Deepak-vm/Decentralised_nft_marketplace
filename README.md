@@ -182,7 +182,6 @@ The NFT marketplace contract (`NFTmarketplace.sol`) includes the following key f
 
 ![Home Page](/ss/Screenshot%20from%202025-06-23%2016-10-43.png)
 ![Marketplace](/ss/Screenshot%20from%202025-06-23%2016-10-48.png)
-![NFT Detail](/ss/Screenshot%20from%202025-06-23%2016-11-04.png)
 
 ## Troubleshooting
 
